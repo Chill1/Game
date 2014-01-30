@@ -31,11 +31,11 @@ public class Game {
      String msg = new String();
      msg = "";
      switch (currentLocale) {
-        case 0: msg = "The Lab";
+        case 0: msg = "The Laboratory";
                 break;
-        case 1: msg = "Dungeon";
+        case 1: msg = "The Jungle";
                 break;
-        case 2: msg = "TARDIS";
+        case 2: msg = "The Desert";
                 break;
         
         default: msg = "currentLocale " + currentLocale + " does not compute.";
